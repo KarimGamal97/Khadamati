@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carpenter Page</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Start Header -->
+    <nav class="fixed-top">
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            <a href="index.html">Khadamati</a></div>
+        <form action="#">
+            <input type="search" class="search-data" placeholder="Search for best worker" required>
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+        <div class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </div>
+        <div class="nav-tools">
+            <i class="fa fa-user" id="user" aria-hidden="true">
+                <div class="user-menu hidden" id="user-menu">
+                    <li>Sign In</li>
+                    <li>Sign Up</li>
+                </div>
+            </i>
+            <i class="fa fa-globe" id="lang" aria-hidden="true">
+                <div class="lang-menu hidden" id="lang-menu">
+                    <li>Ar</li>
+                    <li>En</li>
+                </div>
+            </i>
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+    </nav>
+    <!-- End Header -->
+
+    <!-- Start Carpenter -->
+    <div class="carpenter">
+        <div class="container">
+            <ul class="switcher">
+                <li class="active" data-cat=".all">All</li>
+                <li data-cat=".rate">Best Rated</li>
+                <li data-cat=".price">Price</li>
+                <li data-cat=".week">Top of Week</li>
+                <li data-cat=".near">Near By You</li>
+            </ul>
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <div class="carpenter-card all week">
+                        <div class="info">
+                            <div class="image">
+                                <img src="imgs/avatar-03.png" alt="">
+                            </div>
+                            <div class="name">
+                                <h4><i class="fa-solid fa-id-card">
+                                    </i> Karim Gamal Hassan</h4>
+                                <h4><i class="fa-solid fa-location-dot">
+                                    </i> Quesna , Menofia</h4>
+                            </div>
+                        </div>
+                        <h3 class="details">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. been the standard</h3>
+                        <div class="rate">
+                            <h2><i class="fa-solid fa-star-half-stroke"></i><strong>4.3</strong> (10) People Rate</h2>
+                            <button class="custom-btn">Call Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="carpenter-card all rate">
+                        <div class="info">
+                            <div class="image">
+                                <img src="imgs/avatar-03.png" alt="">
+                            </div>
+                            <div class="name">
+                                <h4><i class="fa-solid fa-id-card">
+                                    </i> Karim Gamal Hassan</h4>
+                                <h4><i class="fa-solid fa-location-dot">
+                                    </i> Quesna , Menofia</h4>
+                            </div>
+                        </div>
+                        <h3 class="details">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. been the standard</h3>
+                        <div class="rate">
+                            <h2><i class="fa-solid fa-star-half-stroke"></i><strong>4.3</strong> (10) People Rate</h2>
+                            <button class="custom-btn">Call Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="carpenter-card all price">
+                        <div class="info">
+                            <div class="image">
+                                <img src="imgs/avatar-03.png" alt="">
+                            </div>
+                            <div class="name">
+                                <h4><i class="fa-solid fa-id-card">
+                                    </i> Karim Gamal Hassan</h4>
+                                <h4><i class="fa-solid fa-location-dot">
+                                    </i> Quesna , Menofia</h4>
+                            </div>
+                        </div>
+                        <h3 class="details">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. been the standard</h3>
+                        <div class="rate">
+                            <h2><i class="fa-solid fa-star-half-stroke"></i><strong>4.3</strong> (10) People Rate</h2>
+                            <button class="custom-btn">Call Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="carpenter-card all near">
+                        <div class="info">
+                            <div class="image">
+                                <img src="imgs/avatar-03.png" alt="">
+                            </div>
+                            <div class="name">
+                                <h4><i class="fa-solid fa-id-card">
+                                    </i> Karim Gamal Hassan</h4>
+                                <h4><i class="fa-solid fa-location-dot">
+                                    </i> Quesna , Menofia</h4>
+                            </div>
+                        </div>
+                        <h3 class="details">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. been the standard</h3>
+                        <div class="rate">
+                            <h2><i class="fa-solid fa-star-half-stroke"></i><strong>4.3</strong> (10) People Rate</h2>
+                            <button class="custom-btn">Call Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="carpenter-card all near">
+                        <div class="info">
+                            <div class="image">
+                                <img src="imgs/avatar-03.png" alt="">
+                            </div>
+                            <div class="name">
+                                <h4><i class="fa-solid fa-id-card">
+                                    </i> Karim Gamal Hassan</h4>
+                                <h4><i class="fa-solid fa-location-dot">
+                                    </i> Quesna , Menofia</h4>
+                            </div>
+                        </div>
+                        <h3 class="details">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. been the standard</h3>
+                        <div class="rate">
+                            <h2><i class="fa-solid fa-star-half-stroke"></i><strong>4.3</strong> (10) People Rate</h2>
+                            <button class="custom-btn">Call Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Carpenter -->
+
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <h3 class="main-title"> Contact Us</h3>
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <input class="footer-input" type="text" placeholder="Type Your name">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <input class="footer-input" type="text" placeholder="Type Your name">
+                </div>
+                <div class="col-xs-12">
+                    <div class="textarea">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Type your message here "></textarea>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button class="custom-btn footer-submit">Send Message</button>
+                    <p>Haven't an account? <a href="#">Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

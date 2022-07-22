@@ -1,0 +1,83 @@
+-- LifeCycle of 5damatiiiiii             __________________ Ay 5dmaaa _____________
+-- Services >>  
+-- userServices -> 
+ - Authentications  ((Login - Register - [As a Guest]))
+ - Chat & Calls
+
+
+-- Offers 
+-- Feedback
+-- Testimonials
+
+Worker Profile : username mobile availability address Nickname Rating description Viewers Feedbacks pictures
+Stores : Merchant adds Supplies    
+
+
+
+
+
+
+
+----- First  Target ((Register - chat - Contact - Views (ui)- Feedbacks - Rating - Reports)) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Impotant
+1- User mobile app & website
+2- Merchant mobile app & website
+3- Dashboard
+
+----- Next Target
+1- Offers
+2- Limitation (imgs - Viewrs - Promotion - Ads (After First Update))
+3- Store Section  
+
+_______________________________________________________________________________________
+_______________________________________________________________________________________
+
+Zoker navbar + Zoker Header (Home- About- ||Feedback|| - Services - Contact- Search- Login (fat7i discuss) - world icon) {{Safety tips}}
+-------------------------------------------------------------------
+>>>> Heading
+brief
+welcome
+--worker button
+--user btn
+-------------------------------------------------------------------
+=>About Us  >>>>> Axit About 
+-------------------------------------------------------------------
+=>Feedbacks   >>>>>>  Testimonial Zoker
+-------------------------------------------------------------------
+=>user section 
+-service=>categories=>(SubCategories)Worker=>plumbers=======>1,2,3,4,5,6,7,8,9*(Cards)
+-------------------------------------------------------------------
+=>worker section
+-how to be a partner/VIP partner
+-requirement
+-how to earn more
+-Contact US (Button)
+-------------------------------------------------------------------
+=>Contact Section
+
+
+*********************
+منافسة أسعار بين العمال في كل مجال 
+************************
+Our Awesome Stats >>> Discussing 
+
+ - Availability of Workers ((Freelancer or have a WorkShop)) Kamasha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
